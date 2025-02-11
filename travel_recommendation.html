@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Recommendation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav><h1>Travel Recommendation</h1>
+         <ul>
+            <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+            <li><a href="./About_us.html" id="about">About Us</a></li>
+            <li><a href="./Contact_us.html" id="contact">Contact</a></li>
+            <li>
+                <form>
+                    <input type="text" id="search" placeholder="Enter a keyword or Destination">
+                    <button id="btnSearch" type="submit">Search</button>
+                    <button id="btnReset" type="reset">Reset</button>
+                </form>
+            </li>
+        </ul>
+     </nav>
+     <header>
+        <div class="hero">
+            <h2>Welcome to Travel Recommendation</h2>
+            <p>Discover the best destinations, tailored to your preferences. Start your journey now!</p>
+        </div>
+    </header>
+    <!-- Recommendations Section -->
+    <section class="recommendations-section">
+        <h2>Our Top Travel Recommendations</h2>
+        <div class="recommendations-container"></div> <!-- This will hold the recommendations -->
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
